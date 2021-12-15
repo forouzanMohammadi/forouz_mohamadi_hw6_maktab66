@@ -1,0 +1,375 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+    font-family:Raleway ;
+    src: url(./fonts/Raleway-Regular.ttf); 
+    src: url(./fonts/Raleway-Regular.wof2) format("wof2"),
+    url(./fonts/Raleway-Regular.woff) format("woff"),
+    url(./fonts/Raleway-Regular.eot) format("eot"),
+}
+body {
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  font-family: "Raleway", serif;
+  font-size: 15px;
+  line-height: 1.5;
+  width: 100%;
+}
+@media screen and (max-width:1052px) {
+    .box1{
+        max-width:60%;
+        margin: 5px;
+    }
+    #sports {
+        padding:0;
+        margin:5px !important;;
+    }
+    #game {
+        padding:0;
+        margin:0 -1px !important;
+    }
+    #baby {
+        padding:0;
+        margin:2px !important;;
+    }
+
+    .box4 span{
+        width: 20%;
+        font-size: 10px !important;
+    }
+    .s3 {
+        padding: 1px 6px;
+        margin: 10px 0 0 10px;
+    }
+      .s4 {
+        font-size: 10px !important;
+        padding: 1px 6px;
+        margin: 10px 0 0 0;
+    }
+}
+@media screen and (min-width:320px) and (max-width:800px){
+   .container1{
+       flex-direction: column !important;
+       width: 100% !important;
+       margin:0 0 350px 0;
+   }
+   .container2{
+    flex-direction: column !important;
+    width: 100% !important;
+    margin:0 0 350px 0;
+   }
+   .container3{
+    flex-direction: column !important;
+    width: 100% !important;
+    margin:150px 0 100px 0;
+   }
+   .box1{width: 100% !important;
+    font-size: 10px;
+    margin:0 0 0 30px !important;
+    }
+   .box2 {width: 95% !important;
+    margin:5px 5px 0 5px !important;
+    }
+   .box3{width: 90% !important;}
+   .box4{width: 90% !important;}
+   .box5{width: 90% !important;
+    margin: 10px 0 0 10px !important;
+    }
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px;
+}
+header h1 {
+  font-size: 36px;
+}
+header p {
+  line-height: 3.5;
+}
+header p span {
+  background-color: black;
+  color: white;
+  padding: 2px 8px;
+  float: center;
+}
+.container1 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 550px;
+}
+.box1 {
+  display: flex;
+  flex-direction: column;
+  width: 68%;
+  height: 550px;
+  background-color: white;
+  border: 0px solid white;
+  margin: 20px 20px;
+  box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+  float: left;
+}
+.card1 {
+  padding: 5px 16px;
+}
+.card1 h3 {
+  font-size: 24px;
+}
+.card1 h5 {
+  font-size: 18px;
+  margin: 10px 0;
+  font-weight: 400;
+}
+.card1 h5 span {
+  opacity: 0.6;
+}
+.card1 p {
+  margin: 25px 0;
+}
+.card1 button {
+  background-color: white;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  padding: 12px 24px;
+  font-family: 'Raleway', serif;
+  font-size: 15px;
+}
+.card1 button:hover {
+  background-color: #ccc;
+}
+.card1 span:nth-child(5) {
+  float: right;
+  margin: 10px 20px 0 0;
+  font-size: 15px;
+}
+
+#zero {
+  background-color: black;
+  color: white;
+  padding: 0 8px;
+  text-align: center;
+  display: inline-block;
+}
+.box2 {
+  display: flex;
+  flex-direction: column;
+  width: 34%;
+  height: 430px;
+  margin: 20px 20px 0 10px;
+  float: right;
+  background-color: white;
+  border: 0px solid white;
+  box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+}
+.box2 p {
+  padding: 15px 15px;
+}
+.box2 h4 {
+  font-size: 20px;
+  padding: 0px 15px;
+}
+.box2 img {
+  width: 100%;
+}
+.container2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 550px;
+}
+.box3 {
+  display: flex;
+  flex-direction: column;
+  width: 63.3%;
+  height: 550px;
+  background-color: white;
+  border: 0px solid white;
+  margin: 60px 20px;
+  box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+  float: left;
+}
+.card2 {
+  padding: 5px 16px;
+}
+.card2 h3 {
+  font-size: 24px;
+}
+.card2 h5 {
+  font-size: 18px;
+  margin: 10px 0;
+  font-weight: 400;
+}
+.card1 h5 span {
+  opacity: 0.6;
+}
+.card2 p {
+  margin: 25px 0;
+}
+.card2 button {
+  background-color: white;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  padding: 12px 24px;
+  font-family: 'Raleway', serif;
+  font-size: 15px;
+}
+.card2 button:hover {
+  background-color: #ccc;
+}
+.card2 span:nth-child(5) {
+  float: right;
+  margin: 10px 20px 0 0;
+  font-size: 15px;
+}
+.card2 h5 span {
+  opacity: 0.6;
+}
+#two {
+  background-color: black;
+  color: white;
+  padding: 0 8px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 100px;
+}
+.box4 {
+  display: flex;
+  flex-direction: column;
+  width: 31%;
+  height: 400px;
+  margin: -50px 0px 0 15px;
+  float: right;
+  background-color: white;
+  border: 0px solid white;
+  box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+}
+.box4 img {
+  width: 50px;
+  height: 50px;
+  margin: 15px;
+}
+.box4 h4 {
+  background-color: #f1f1f1;
+  height: 70px;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 20px;
+}
+.row1 {
+  height: 85px;
+  border-bottom: 1px solid rgb(212, 212, 212);
+  font-size: 18px;
+}
+.row2 {
+  height: 85px;
+  border-bottom: 1px solid rgb(212, 212, 212);
+  font-size: 18px;
+}
+.row3 {
+  height: 85px;
+  border-bottom: 1px solid rgb(212, 212, 212);
+  font-size: 18px;
+}
+.row4 {
+  font-size: 18px;
+}
+.box4 span {
+  display: flex;
+  flex-direction: column;
+  margin: -70px 80px;
+}
+.s2 {
+  font-size: 15px;
+  padding: 110px 0;
+}
+.box5 {
+  display: flex;
+  flex-direction: column;
+  width: 31%;
+  height: 200px;
+  float: right;
+  margin:-160px 0 0 0;
+  background-color: white;
+  border: 0px solid white;
+  box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+}
+.box5 h4 {
+  background-color: #f1f1f1;
+  height: 70px;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 20px;
+}
+.s3 {
+  background-color: black;
+  color: white;
+  padding: 1px 8px;
+  display: inline-block;
+  margin: 15px 0 0 15px;
+}
+.s4 {
+  background-color: #f1f1f1;
+  font-size: 12px;
+  padding: 1px 8px;
+  display: inline-block;
+  margin: 16px 0 0 0;
+}
+#baby {
+  margin: 0 0 0 15px;
+}
+#sports {
+  margin: 0 20px 0 0;
+}
+#game {
+  margin: 15px;
+}
+.container3{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+}
+.box6{
+    display: flex;
+    flex-direction: column;
+    width: 63.3%;
+    height: 200px;
+    float: left;
+    color: red;
+    margin:0 30px;
+}
+footer{
+    background-color: #616161;
+    color: white;
+    width: 100%;
+    height: 180px;
+    padding:32px 16px
+}
+footer a{
+    color:white;
+}
+#butt1{
+    background-color: #000;
+    cursor: not-allowed;
+    opacity: 0.3;
+    border: none;
+    padding: 14px 24px;
+    color: white;
+    font-size: 16px;
+    margin:0 0 30px 0;
+}
+#butt2{ 
+    background-color: #000;
+    cursor: not-allowed;
+    border: none;
+    padding: 14px 24px;
+    color: white;
+    font-size: 16px;
+}
